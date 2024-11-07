@@ -14,6 +14,6 @@ class TestSerializationClass(unittest.TestCase):
         painting = Painting(name="Picture 1", price=29011.11, year_painted=1999)
         
         # data
-        expected = """{"name":"Picture 1", "price":29011.11, "year_painted":1999}"""
+        expected = """{"name": "Picture 1", "price": 29011.11, "year_painted": 1999}"""
         actual = serialize(painting)
-        self.assertEqual(expected. actual)
+        self.assertEqual(expected, actual)
