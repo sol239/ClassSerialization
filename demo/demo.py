@@ -1,7 +1,7 @@
 # demo use
 from dataclass_example import Book as DataclassBook
 from class_example import Book as ClassBook
-from serialization import serialize, deserialize
+from sol239_serialization.serialization import serialize, deserialize
 
 # Create instances of the two classes
 dataclass_book = DataclassBook("The Great Gatsby", ["F. Scott Fitzgerald"], 180, 10.99)

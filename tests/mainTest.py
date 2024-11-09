@@ -1,6 +1,7 @@
 import unittest
 from dataclasses import dataclass
-from serialization import serialize, deserialize
+from sol239_serialization.serialization import serialize
+
 
 @dataclass
 class Painting:
