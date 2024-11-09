@@ -7,7 +7,7 @@ Python library for class JSON serialization.
 ### Example usage
 
 ```python
-from serialization import serialize, deserialize
+from sol239_serialization.serialization import serialize, deserialize
 
 class Book:
     """
