@@ -1,6 +1,6 @@
 import unittest
 from dataclasses import dataclass
-from serialization.serialization import serialize
+from sol239_serialization.serialization import serialize
 
 
 @dataclass
