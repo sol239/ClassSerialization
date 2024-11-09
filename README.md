@@ -4,7 +4,17 @@ Python library for class JSON serialization.
 
 ---
 
-### Example usage
+### Installation
+
+```bash
+pip install sol239_serialization
+```
+
+```bash
+pip install git+https://github.com/sol239/ClassSerialization
+```
+
+### Example when download
 
 ```python
 from sol239_serialization.serialization import serialize, deserialize
