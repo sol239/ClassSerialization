@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="sol239_serialization",  # Ensure this matches your PyPI package name
-    version="0.1",
+    version="0.2",
     packages=find_packages(),
     description="A package for serializing and deserializing data",
     author="sol239",
