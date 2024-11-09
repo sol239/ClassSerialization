@@ -1,6 +1,7 @@
 import unittest
 from dataclasses import dataclass
-from serialization import serialize, deserialize
+from serialization.serialization import serialize
+
 
 @dataclass
 class Painting:
