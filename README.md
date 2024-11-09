@@ -14,7 +14,9 @@ pip install sol239_serialization
 pip install git+https://github.com/sol239/ClassSerialization
 ```
 
-### Example when download
+---
+
+### Example
 
 ```python
 from sol239_serialization.serialization import serialize, deserialize
@@ -40,5 +42,11 @@ book = deserialize(Book, "fl.json")
 print(book.__dict__)
 print(book.title)
 ```
+
+---
+
+### View at:
+
+[https://pypi.org/project/sol239-serialization/0.2.2/](https://pypi.org/project/sol239-serialization/0.2.2/)
 
 ---
